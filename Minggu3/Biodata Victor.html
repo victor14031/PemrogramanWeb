@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Biodata Pribadi</title> 
+    <style type ="text/css"></style>
+</head>
+<body>
+    <h1 align ="center">BIODATA MAHASISWA</h1>
+    <hr width ="800" style="3" style="background-color:red;">
+    <table align="center" cellpading="10" align="center" width="700" >
+        <tr>
+            <td>Nama</td>
+            <td>:Lay Victor Adrian</td>
+            <td rowspan="9" align="center"> <img src="foto/foto1.jpg" width="150"> </td>
+        </tr>
+        <tr>
+            <td>NIM</td>
+            <td>:A11.2022.14031</td>
+        </tr>
+        <tr>
+            <td>Dosen Wali</td>
+            <td>:Adi Prihandono</td>
+        </tr>
+        <tr>
+            <td>Status </td> 
+            <td>:Aktif</td>
+        </tr>
+        <tr>
+            <td> Agama</td>
+            <td>:Kristen</td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:Laki-laki</td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:Jl.Candi Intan V no 1154</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>:layvictoradrian04@gmail.com</td>
+        </tr>
+        <tr>
+            <td>No HP</td>
+            <td>:082111795623</td>
+        </tr>
+    
+    </table>
+    <h2 align="center">JADWAL KRS </h2>
+    <hr width ="800" style="5">
+        <table border="1" align="center" width="1000">
+          <tr style="background-color:blue;">
+            <td><b>No</b></td>
+            <td><b>Kode Mata Kuliah</b></td>
+            <td><b>Kelompok</b></td>
+            <td><b>Mata Kuliah</b></td>
+            <td><b>SKS</b></td>
+            <td><b>Status</b></td>
+          </tr>
+          <tr style="background-color:cadetblue;">
+            <td>1</td>
+            <td>A11.54101</td>
+            <td>A11.4102</td>
+            <td>Kalkulus 1</td>
+            <td>4</td>
+            <td>B</td>
+          </tr>
+          <tr style="background-color:aquamarine ;">
+            <td>2</td>
+            <td>A11.54105</td>
+            <td>A11.4102</td>
+            <td>Dasar Pemerograman</td>
+            <td>4</td>
+            <td>B</td>
+          </tr>
+          <tr style="background-color:cadetblue;">
+            <td>3</td>
+            <td>A11.54302</td>
+            <td>A11.4102</td>
+            <td>Matematika Diskrit</td>
+            <td>3</td>
+            <td>B</td>
+          </tr>
+          <tr style="background-color:aquamarine ;">
+            <td>4</td>
+            <td>A11.54314</td>
+            <td>A11.4102</td>
+            <td>Pemrograman Berbasis Web</td>
+            <td>2</td>
+            <td>B</td>
+          </tr>
+          <tr style="background-color:cadetblue;">
+            <td>5</td>
+            <td>A11.54403</td>
+            <td>A11.4102</td>
+            <td>Organisasi dan Arsitektur Komputer</td>
+            <td>3</td>
+            <td>B</td>
+          </tr>
+          <tr style="background-color:aquamarine ;">
+            <td>6</td>
+            <td>AF201704</td>
+            <td>A11.4102</td>
+            <td>Dasar Dasar Komputasi</td>
+            <td>2</td>
+            <td>B</td>
+          </tr>
+        </table>
+        
+        <section align="center">
+            <h2>Menampilkan vidio di HTML5</h2>
+            <video id="vid" width="480" height="400" controls>
+                <source src="Media/Video.mp4" type="video/mp4">
+              </video> <br>
+             <section style="margin-top: 30px; margin-bottom: 60px;">
+                <button align ="Center" onclick= "playVid()" type="button">Play Video</button>
+                <button onclick="Pausevid()" type="button" > Pause video</button>
+                <button onclick="Duration()" type="button" > Duration Video</button>
+                <script>
+                    var vid = document.getElementById("vid");
+                    function playVid(){
+                        vid.play();
+                    }
+                    function Pausevid(){
+                        vid.pause();
+                    }
+                    function Duration() {
+                    alert(vid.duration);
+                    }
+                    </script>
+             </section>
+         </section>
+      
+</body>
+</html>
