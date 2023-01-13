@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background-image: url(asset/backttgkm.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+header{
+    width:100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(71, 239, 59, 0.737);
+}
+#chk1{
+    display: none;
+}
+    .dropbtn {
+        color: #ffffff;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #000000;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(249, 249, 249, 0);
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: rgb(255, 255, 255);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: #63ed23}
+      
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+     
+     
+i{
+    color: #fff;
+    cursor: pointer;
+}
+header .logo{
+    flex: 1;
+    color:#fff;
+     
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+header ul {
+    flex:2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+header ul li a:hover{
+    border-bottom: 2px solid rgb(0, 0, 0);  
+}
+
+.isi {
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+
+.isi h1 {
+    color: #fefefe;
+    text-align: left;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 40px;
+}
+
+.content-isi {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    top: 55%;
+    left: 73%;
+}
+
+
+.content-isi p {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+text {
+    width: 205px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.btn{
+
+    color: white;
+
+    width: 50%;
+
+    height: 50px;
+
+    font-size: 18px;
+
+    background-color: #2083ec;
+
+    border-radius: 30px;
+}
+.col-img {
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    width: 57%;
+    text-align: -webkit-right;
+}
+
+.col-img img {
+    width: 50%;
+    
+}
